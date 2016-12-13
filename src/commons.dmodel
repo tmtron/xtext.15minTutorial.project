@@ -1,0 +1,4 @@
+
+entity HasAuthor {
+    author: String
+}
