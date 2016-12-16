@@ -7,7 +7,7 @@ package my.company.blog {
         many posts: Post
     }
 
-    entity Post extends my.company.common.HasAuthor {
+    entity Post extends HasAuthor {
         title: String
         content: String
         many comments: Comment
